@@ -3,16 +3,20 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 html {
   font-family: "Montserrat", sans-serif;
+  position: relative;
+  padding-bottom: 2.5rem;
 }
 body {
   background: #eee;
   padding: 0 16px;
+  min-height: 100vh;
 }
 
 header {
-  background-color: #3c79f5;
+  background-color: #f5ba13;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
